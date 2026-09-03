@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JOD X FAMILY — Free Fire Top-Up</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">JOD X <span>FAMILY</span></div>
+  <a href="#packages" class="nav-btn">Top Up</a>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="tag">JOD X FAMILY</p>
+      <h1>FREE FIRE<br><span>DIAMOND TOP-UP</span></h1>
+      <p class="sub">আপনার Player ID দিয়ে প্যাকেজ নির্বাচন করুন। এটি একটি demo website—কোনো বাস্তব payment নেওয়া হয় না।</p>
+      <a href="#packages" class="primary">Packages দেখুন ↓</a>
+    </div>
+    <div class="diamond">💎</div>
+  </section>
+
+  <section class="card">
+    <h2>Player Information</h2>
+    <label>Free Fire Player ID</label>
+    <input id="playerId" type="text" inputmode="numeric" placeholder="যেমন: 123456789" maxlength="20">
+    <small>শুধু Player ID দিন। Password কখনো দেবেন না।</small>
+  </section>
+
+  <section id="packages">
+    <h2 class="section-title">Diamond Packages</h2>
+    <div class="grid">
+      <button class="package" data-diamond="100 Diamonds" data-price="৳ 80"><b>💎 100</b><span>৳ 80</span></button>
+      <button class="package" data-diamond="310 Diamonds" data-price="৳ 230"><b>💎 310</b><span>৳ 230</span></button>
+      <button class="package" data-diamond="520 Diamonds" data-price="৳ 380"><b>💎 520</b><span>৳ 380</span></button>
+      <button class="package" data-diamond="1060 Diamonds" data-price="৳ 760"><b>💎 1060</b><span>৳ 760</span></button>
+    </div>
+  </section>
+
+  <section class="card order">
+    <h2>Order Summary</h2>
+    <p>Player ID: <strong id="showId">—</strong></p>
+    <p>Package: <strong id="showPackage">কোনো package নির্বাচন করা হয়নি</strong></p>
+    <p>Price: <strong id="showPrice">—</strong></p>
+    <button id="orderBtn" class="primary full">Demo Order তৈরি করুন</button>
+    <p id="message" class="message"></p>
+  </section>
+</main>
+
+<footer>© 2026 JOD X FAMILY • Demo Top-Up Website</footer>
+<script src="script.js"></script>
+</body>
+</html>
